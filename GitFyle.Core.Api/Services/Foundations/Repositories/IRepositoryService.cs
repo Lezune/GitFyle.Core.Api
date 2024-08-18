@@ -3,9 +3,8 @@ using System.Threading.Tasks;
 
 namespace GitFyle.Core.Api.Services.Foundations.Repositories
 {
-    public class IRepositoryService
+    internal interface IRepositoryService
     {
-
         ValueTask<Repository> AddAsync(Repository repository);
     }
 }
